@@ -1,0 +1,255 @@
+body {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 16px;
+    margin: -21px 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+header {
+    display: block;
+    background-color: rgb(36, 41, 46);
+    height: 72px;
+}
+
+nav {
+    float: left;
+    display: block;
+    margin-left: 45px;
+    height: 100%;
+}
+
+nav img {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    padding: 19px 5px;
+}
+
+.nav-links {
+    margin: 1px;
+    float: right;
+    padding-left: 0px;
+}
+
+.nav-links>li {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin-left: 17px;
+}
+
+.nav-links a {
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.nav-links>div {
+    float: right;
+    margin-right: 5px;
+}
+
+.navRight {
+    float: right;
+    display: block;
+    margin-left: 45px;
+    height: 100%;
+    margin-top: 16px;
+}
+
+::placeholder {
+    color: inherit;
+}
+
+.divSearch {
+    float: left;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border: none;
+    border-radius: 6px;
+    background-color: #404448;
+    margin-top: 2px;
+}
+
+.search {
+    border-color: #404448;
+    background: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 6px;
+    color: lightgray;
+    font-size: 16px;
+    padding: 7px 4px;
+    width: 181px;
+    height: 11px;
+    text-align: left;
+    margin: -1px 7px;
+    font: inherit;
+}
+
+.iconeSearch {
+    float: right;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 20px;
+    width: 53px;
+    margin: 2px -9px;
+}
+
+.signIn {
+    margin: 0px 14px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.signUp {
+    border: 1px solid white;
+    background-color: rgb(36, 41, 46);
+    border-radius: 5px;
+    color: white;
+    padding: 4px 8px 6px 7px;
+    font-size: 16px;
+    margin-right: 47px;
+    margin-top: 4px;
+    font: inherit;
+}
+
+.content {
+    background: url(../img/simple-codelines.svg) rgb(43, 49, 55);
+    background-color: #24292ef5;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center 10%;
+    background-size: 103%;
+}
+
+.contentText {
+    margin-left: 184px;
+    margin-top: 120px;
+    float: left;
+    width: 50%;
+}
+
+.textoMaior {
+    float: left;
+    width: 50%;
+    margin-right: 2%;
+    margin-bottom: 40px!important;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 64px!important;
+    line-height: 64px;
+    text-align: left;
+    text-size-adjust: 100%;
+}
+
+.descricaoContent {
+    float: left;
+    width: 70%;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -22px;
+}
+
+.textLink {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(255, 255, 255, 0.125);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+.contentBox {
+    float: right;
+    margin-right: 299px;
+    margin-top: 200px;
+    background-color: rgb(250, 251, 252);
+    border-radius: 6px;
+    color: rgb(88, 96, 105);
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 13px 20px;
+    width: 384px;
+    height: 473px;
+}
+
+label {
+    color: rgb(36, 41, 46);
+    cursor: default;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    height: 18px;
+    line-height: 21px;
+    margin-bottom: 5px;
+    text-size-adjust: 100%;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+
+.inputBox {
+    background-color: rgb(250, 251, 252);
+    border-color: rgb(225, 228, 232);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+    padding: 16px 6px;
+    text-size-adjust: 100%;
+    width: 360px;
+    margin: 4px 5px;
+    color: black;
+}
+
+.button {
+    background-color: rgb(46, 188, 79);
+    border-color: rgb(46, 188, 79);
+    border-radius: 6px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: inherit;
+    width: 375px;
+    height: 67px;
+    text-size-adjust: 100%;
+    margin: -14px 4px;
+}
+
+.textBox1 {
+    color: rgb(36, 41, 46);
+    display: block;
+    font-size: 12px;
+    height: 54px;
+    line-height: 18px;
+    margin: 12px 3px;
+}
+
+.textBox2 {
+    color: rgb(106, 115, 125);
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 47px;
+    margin: 47px 4px;
+}
+
+.linkBlue {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(3, 102, 214);
+    text-decoration-line: none;
+}
