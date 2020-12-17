@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+nav {
+    float: left;
+    background-color: #d7ccc8;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+
+nav ul {
+    margin: 0px;
+    text-align: center;
+    padding: 10%;
+}
+
+nav ul>li {
+    display: block;
+    height: 50px;
+    background-color: #ff7043;
+    border: 1px solid #c63f17;
+    margin: 20px;
+    border-bottom: 0px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+nav ul .active, li:hover {
+    background-color: #ffa270;
+    border-color: #ff7043;
+}
+
+nav ul a {
+    line-height: 45px;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+.senacLogo {
+    width: 200px;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    float: right;
+    width: 80%;
+    height: 100%;
+}
+
+.content>div {
+    width: 800px;
+    height: 100%;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+footer {
+    display: block;
+    min-height: 80px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #a69b97;
+    position: absolute;
+}
